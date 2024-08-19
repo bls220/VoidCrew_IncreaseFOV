@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <RootNamespace>Increase_FOV</RootNamespace>
+    </PropertyGroup>
+
+    <!--Thunderstore Info-->
+    <PropertyGroup>
+        <Product>Increase_FOV</Product>
+        <Description></Description>
+        <RepositoryUrl>https://github.com/bls220/VoidCrew_IncreaseFOV</RepositoryUrl>
+    </PropertyGroup>
+</Project>
