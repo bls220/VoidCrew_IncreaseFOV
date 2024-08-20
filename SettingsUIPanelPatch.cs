@@ -2,7 +2,7 @@ using HarmonyLib;
 using UI.Settings;
 using UnityEngine.UIElements;
 
-namespace Increase_FOV;
+namespace IncreaseFOV;
 
 [HarmonyPatch(typeof(SettingsUIPanel))]
 static class SettingsUIPanelPatch

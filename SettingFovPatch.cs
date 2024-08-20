@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace Increase_FOV;
+namespace IncreaseFOV;
 
 [HarmonyPatch(typeof(SettingFov))]
 static class SettingFovPatch
