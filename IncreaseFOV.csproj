@@ -5,8 +5,13 @@
 
     <!--Thunderstore Info-->
     <PropertyGroup>
-        <Product>IncreaseFOV</Product>
-        <Description></Description>
+        <Product>Increase_FOV</Product>
+        <Description>Increases Range of FOV slider</Description>
         <RepositoryUrl>https://github.com/bls220/VoidCrew_IncreaseFOV</RepositoryUrl>
     </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="VoidManager">
+          <HintPath>$(GamePath)BepInEx\plugins\VoidManager\VoidManager.dll</HintPath>
+        </Reference>
+    </ItemGroup>
 </Project>
